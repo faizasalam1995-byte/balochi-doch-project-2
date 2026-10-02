@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --doch-bg: #110306;
+    --doch-surface: #1d070b;
+    --doch-card: #24090e;
+    --doch-border: #4a151f;
+    --doch-gold: #d4a326;
+    --doch-gold-light: #f7df94;
+    --doch-gold-dark: #a87912;
+    --doch-text: #f5ede0;
+    --doch-muted: #b89f97;
+  }
+
+  body {
+    background-color: #110306;
+    color: #f5ede0;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+  }
+
+  .font-italic-accent {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+  }
+}
+
+/* Background needlework dot matrix motif */
+.doch-pattern-bg {
+  background-color: #110306;
+  background-image: radial-gradient(rgba(212, 163, 38, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.doch-pattern-fine {
+  background-image: radial-gradient(rgba(212, 163, 38, 0.16) 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
+
+/* Gold shimmer border */
+.border-gold-glow {
+  border-color: rgba(212, 163, 38, 0.4);
+  box-shadow: 0 0 15px rgba(212, 163, 38, 0.1);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #110306;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3e121a;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4a326;
+}

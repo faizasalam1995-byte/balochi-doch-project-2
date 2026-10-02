@@ -1,0 +1,6 @@
+{
+  "name": "Balochi Doch - Authentic Needlecraft",
+  "description": "Discover authentic Balochi Doch embroidery — handcrafted traditional dresses and heirloom needlecraft stitched by master Baloch artisans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
